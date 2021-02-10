@@ -1,0 +1,30 @@
+# C# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C# is pronounced "C-Sharp".
+
+
+
+C# Edited
+
+
+
+
+It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+
+
+
+C# Edited

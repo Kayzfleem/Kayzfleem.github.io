@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %} {% block title %} Page Already Exists {% endblock %} {% block body %}
+<div class="alert alert-danger" role="alert">
+    <h4>"{{ title }}" is an existing Page!!!</h4>
+</div>
+
+<form action="{% url 'newPage' %}" method="Post">
+    <table>
+        {% csrf_token %} {{ form }}
+    </table>
+    <button type="submit" class="btn btn-outline-success" id="button">Save</button>
+</form>
+{% endblock %}

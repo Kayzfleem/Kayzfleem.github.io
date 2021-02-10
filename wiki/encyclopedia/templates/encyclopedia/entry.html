@@ -1,0 +1,9 @@
+{% extends "encyclopedia/layout.html" %} {% block title %} {{ title }} {% endblock %} {% block body %} {% if search %}
+
+<br> {{ title }}
+<a href="{% url 'edit' title %}" type="button" class="btn btn-outline-secondary">edit</a> {% else %}
+
+<br>
+
+<h2>{{ entry|safe }}</h2>
+<a href="{% url 'edit' title %}" type="button" class="btn btn-outline-secondary">edit</a> {% endif %} {% endblock %}
