@@ -1,0 +1,39 @@
+body {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.container {
+    padding-bottom: 10rem;
+}
+
+.carousel-item {
+    max-height: 1000px !important;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 200px;
+    margin-left: 2rem;
+    padding-bottom: 10rem;
+}
+
+.img:hover {
+    transform: scale(1.2);
+    background-color: azure;
+    box-shadow: 5px 8px 13px 5px;
+}
+
+.first {
+    background: url() no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.behind-the-scenes {
+    text-align: center;
+}
